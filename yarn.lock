@@ -493,6 +493,11 @@ chalk@^2.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
+classnames@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 client-only@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
@@ -802,6 +807,16 @@ react-dom@18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-hook-form@^7.40.0:
+  version "7.40.0"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.40.0.tgz#62bc939dddca88522cd7f5135b6603192ccf7e17"
+  integrity sha512-0rokdxMPJs0k9bvFtY6dbcSydyNhnZNXCR49jgDr/aR03FDHFOK6gfh8ccqB3fl696Mk7lqh04xdm+agqWXKSw==
+
+react-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
+  integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
 
 react-query@^3.39.2:
   version "3.39.2"
