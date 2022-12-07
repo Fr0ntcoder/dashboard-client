@@ -1,0 +1,62 @@
+.wrapper {
+	position: relative;
+}
+.input {
+	margin-bottom: 30px;
+	& input {
+		font-size: 14px;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px solid $color-purple;
+		color: #000;
+		&::placeholder {
+			color: #000;
+		}
+		&::-moz-placeholder {
+			color: #000;
+		}
+	}
+}
+.btn {
+	display: flex;
+	width: 45px;
+	height: 45px;
+	font-size: 22px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 0 30px 2px rgba(128, 128, 128, 0.6);
+	cursor: pointer;
+}
+
+.form {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	padding: 15px;
+	border-radius: 10px;
+	background: #fff;
+}
+.bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.login {
+	font-size: 16px;
+	padding: 5px 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: $color-purple;
+	color: #fff;
+	cursor: pointer;
+}
+.register {
+	font-size: 16px;
+	background: none;
+	color: #fff;
+}

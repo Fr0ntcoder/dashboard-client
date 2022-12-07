@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
-import Logo from '@/components/layout/header/Logo';
 import LoginForm from '@/components/layout/header/login-form/LoginForm';
+import Logo from '@/components/layout/header/logo/Logo';
 
 import styles from './Header.module.scss';
 

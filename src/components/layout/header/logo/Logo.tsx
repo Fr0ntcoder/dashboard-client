@@ -8,7 +8,7 @@ import styles from './Logo.module.scss';
 
 const Logo: FC = () => {
 	return (
-		<Link href='/'>
+		<Link href='/' className={styles.logo}>
 			<Image src={Img} alt='Логотип' />
 		</Link>
 	);
