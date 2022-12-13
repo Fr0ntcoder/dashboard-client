@@ -33,12 +33,13 @@
 
 .form {
 	position: absolute;
-	top: 100%;
+	top: 120%;
 	right: 0;
 	width: 200px;
 	padding: 15px;
 	border-radius: 10px;
 	background: #fff;
+	opacity: 0;
 }
 .bottom {
 	display: flex;
