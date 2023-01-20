@@ -26,9 +26,10 @@
 	align-items: center;
 	border: none;
 	border-radius: 50%;
-	background: #fff;
+	background: $color-primary;
 	box-shadow: 0 0 30px 2px rgba(128, 128, 128, 0.6);
 	cursor: pointer;
+	color: #fff;
 }
 
 .form {
@@ -39,7 +40,6 @@
 	padding: 15px;
 	border-radius: 10px;
 	background: #fff;
-	opacity: 0;
 }
 .bottom {
 	display: flex;

@@ -1,4 +1,9 @@
 .wrapper {
+	display: flex;
+	height: 100%;
+}
+.content {
+	width: 100%;
 }
 .main {
 	padding: 30px 15px;

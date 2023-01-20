@@ -12,6 +12,15 @@
 		}
 	}
 }
+
+.icon {
+	font-size: 0;
+	color: #fff;
+	& svg {
+		font-size: 18px;
+	}
+}
+
 .error {
 	position: absolute;
 	left: 0;

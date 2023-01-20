@@ -2,7 +2,7 @@ import { useMutation } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
 import { FC, SetStateAction, useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
-import { FaRegUser, FaRegUserCircle, FaUserCircle } from 'react-icons/fa';
+import { FaRegUserCircle } from 'react-icons/fa';
 
 import { IAuthFields } from '@/components/layout/header/login-form/login-form.interface';
 import Button from '@/components/ui/button/Button';
@@ -81,6 +81,7 @@ const LoginForm: FC = () => {
 				</button>
 			)}
 			<motion.form
+				initial={false}
 				animate={isShow ? 'open' : 'closed'}
 				variants={dropAnimation}
 				className={styles.form}

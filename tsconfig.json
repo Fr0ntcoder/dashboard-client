@@ -26,7 +26,8 @@
 			"@/config/*": ["config/*"],
 			"@/services/*": ["services/*"],
 			"@/utils/*": ["utils/*"],
-			"@/store/*": ["store/*"]
+			"@/store/*": ["store/*"],
+			"@/pages/*": ["../../../../../../pages/*"]
 		}
 	},
 	"include": [

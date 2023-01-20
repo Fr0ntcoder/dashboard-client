@@ -130,10 +130,13 @@ a {
 }
 body,
 html {
+	height: 100%;
 	font-family: $font-ubuntu;
-	background: #ebeffd;
+	background: #000;
 }
-
+#__next {
+	height: 100%;
+}
 h1,
 h2,
 h3,

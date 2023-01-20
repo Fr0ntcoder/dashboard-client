@@ -1,0 +1,27 @@
+.form {
+	display: flex;
+	max-width: 800px;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.input {
+	width: 85%;
+	& input {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid $color-primary;
+		border-radius: 5px;
+		color: #fff;
+	}
+}
+.btn {
+	display: flex;
+	width: 10%;
+	font-size: 18px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	cursor: pointer;
+	background: $color-primary;
+	color: #fff;
+}

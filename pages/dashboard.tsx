@@ -1,9 +1,11 @@
 import { NextPage } from 'next';
 
+import Dashboard from '@/components/screens/dashboard/Dashboard';
+
 import styles from './dashboard.module.scss';
 
 const DashboardPage: NextPage = () => {
-	return <div>dashboard</div>;
+	return <Dashboard />;
 };
 
 export default DashboardPage;
