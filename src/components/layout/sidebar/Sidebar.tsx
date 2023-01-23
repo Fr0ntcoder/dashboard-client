@@ -18,7 +18,7 @@ const Sidebar: FC = () => {
 			<nav className={styles.nav}>
 				<ul className={styles.list}>
 					{menu.map((item) => (
-						<li className={styles.item}>
+						<li className={styles.item} key={item.link}>
 							<Link
 								href={item.link}
 								key={item.link}

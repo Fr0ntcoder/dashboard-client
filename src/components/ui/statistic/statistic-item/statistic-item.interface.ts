@@ -1,7 +1,5 @@
-import { IconType } from 'react-icons/lib';
-
 export interface IStatisticItem {
+	id: number;
 	name: string;
-	value: number;
-	Icon: IconType;
+	value: number | string;
 }

@@ -1,20 +1,54 @@
 .item {
+	position: relative;
 	padding: 15px;
 	border-radius: 15px;
+	transition: transform 0.3s ease-in-out;
 	background: #fff;
 	box-shadow: 2px 8px 5px 1px rgba($color-primary, 0.8);
-	& svg {
-		font-size: 30px;
-		color: $color-primary;
+	overflow: hidden;
+	cursor: pointer;
+	&:hover {
+		transform: translateY(2px);
 	}
 }
-
+.icon {
+	font-size: 35px;
+	font-weight: normal;
+}
 .title {
 	font-size: 20px;
 	margin-bottom: 10px;
 }
-
 .value {
 	font-size: 25px;
 	font-weight: bold;
+}
+.block {
+	position: absolute;
+	display: block;
+	top: 50%;
+	right: 0px;
+	width: 15px;
+	height: 80px;
+	transform: translateY(-50%);
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	&_1 {
+		background: linear-gradient(to top, #6c5ecf, #260ceafd);
+	}
+	&_2 {
+		background: linear-gradient(to top, #78c0f0, #4d7d9d);
+	}
+	&_3 {
+		background: linear-gradient(to top, #745bdd, #5845a6);
+	}
+	&_4 {
+		background: linear-gradient(to top, #28c78f, #20a275);
+	}
+	&_5 {
+		background: linear-gradient(to top, #485a66, #344149);
+	}
+	&_6 {
+		background: linear-gradient(to top, #994cfa, #7f3fce);
+	}
 }
