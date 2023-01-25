@@ -1,9 +1,8 @@
 .root {
-	position: relative;
-	margin-bottom: 50px;
+	display: block;
 }
+
 .list {
-	position: relative;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-column-gap: 30px;

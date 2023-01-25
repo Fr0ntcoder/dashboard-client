@@ -1,3 +1,3 @@
 export const formatNumber = (n: number) => {
-	return Intl.NumberFormat('ru-Ru').format(n);
+	return Intl.NumberFormat('en-EN').format(n);
 };

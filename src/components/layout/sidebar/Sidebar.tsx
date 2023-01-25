@@ -11,7 +11,7 @@ import styles from './Sidebar.module.scss';
 const Sidebar: FC = () => {
 	const { asPath } = useRouter();
 	return (
-		<aside className={styles.aside}>
+		<aside className={styles.root}>
 			<Link href='/' className={styles.logo}>
 				<FaReact />
 			</Link>

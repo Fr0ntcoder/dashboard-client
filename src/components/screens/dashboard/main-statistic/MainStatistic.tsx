@@ -15,7 +15,7 @@ const MainStatistic: FC = () => {
 		StatisticsService.getMain()
 	);
 	return (
-		<div className={styles.block}>
+		<div className={styles.root}>
 			<Heading>Главная статистика</Heading>
 			{isLoading && <Loader />}
 			<ul className={styles.list}>
