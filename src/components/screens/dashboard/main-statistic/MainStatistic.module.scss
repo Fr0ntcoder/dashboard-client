@@ -1,0 +1,10 @@
+.root {
+	position: relative;
+	margin-bottom: 50px;
+}
+.list {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 30px;
+}

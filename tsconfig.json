@@ -18,6 +18,7 @@
 		"paths": {
 			"@/assets/*": ["assets/*"],
 			"@/components/*": ["components/*"],
+			"@/providers/*": ["providers/*"],
 			"@/ui/*": ["components/ui/*"],
 			"@/screens/*": ["components/screens/*"],
 			"@/hooks/*": ["hooks/*"],
@@ -25,9 +26,16 @@
 			"@/config/*": ["config/*"],
 			"@/services/*": ["services/*"],
 			"@/utils/*": ["utils/*"],
-			"@/store/*": ["store/*"]
+			"@/store/*": ["store/*"],
+			"@/pages/*": ["../../../../../../pages/*"]
 		}
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"src/providers/auth-provider/AuthProvider.tss",
+		"src/providers/auth-provider/AuthProvider.tss"
+	],
 	"exclude": ["node_modules"]
 }

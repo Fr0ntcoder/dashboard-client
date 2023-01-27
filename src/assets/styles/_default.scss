@@ -59,7 +59,8 @@ form,
 label,
 legend,
 input,
-textarea {
+textarea,
+button {
 	vertical-align: baseline;
 	font-family: inherit;
 	font-weight: inherit;
@@ -71,6 +72,7 @@ textarea {
 	border: 0;
 	box-sizing: border-box;
 	line-height: 1.2;
+	font-family: $font-ubuntu;
 }
 
 /* remember to define focus styles! */
@@ -125,13 +127,20 @@ img {
 }
 a {
 	text-decoration: none;
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
 }
 body,
 html {
+	height: 100%;
 	font-family: $font-ubuntu;
-	background: #ebeffd;
+	background: #000;
 }
-
+#__next {
+	height: 100%;
+}
 h1,
 h2,
 h3,

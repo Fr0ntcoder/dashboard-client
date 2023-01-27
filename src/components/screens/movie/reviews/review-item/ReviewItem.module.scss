@@ -1,0 +1,20 @@
+.img {
+	width: 50px;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+.item {
+	padding: 15px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background: #fff;
+}
+.author {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.name {
+	font-size: 18px;
+}

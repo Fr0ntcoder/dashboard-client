@@ -1,0 +1,16 @@
+.create {
+	font-weight: bolder;
+	padding: 10px 15px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: $color-primary;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,9 +1,30 @@
-import { NextPage } from 'next';
+import { GetStaticProps, NextPage } from 'next';
 
-import Layout from '@/components/layout/Layout';
+import Home from '@/components/screens/home/Home';
+import { IHome } from '@/components/screens/home/home.interface';
 
-const Home: NextPage = () => {
-	return <Layout title='Cinema'>Главная</Layout>;
+import { MovieService } from '@/services/movie.service';
+
+const HomePage: NextPage<IHome> = (props) => {
+	return <Home {...props} />;
 };
 
-export default Home;
+export const getStaticProps: GetStaticProps<IHome> = async () => {
+	try {
+		const { data: newMovies } = await MovieService.getAll();
+		return {
+			props: {
+				newMovies
+			},
+			revalidate: 60
+		};
+	} catch (e) {
+		return {
+			props: {
+				newMovies: []
+			}
+		};
+	}
+};
+
+export default HomePage;

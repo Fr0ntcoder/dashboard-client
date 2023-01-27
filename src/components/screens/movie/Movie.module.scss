@@ -1,0 +1,48 @@
+.poster {
+	position: relative;
+	display: block;
+	flex: none;
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+	@include responsiveImg;
+	background: #333;
+}
+.details {
+	width: 100%;
+	padding-left: 30px;
+}
+.rating {
+	display: block;
+	font-size: 25px;
+	font-weight: 700;
+	margin: 15px 0;
+	border-radius: 5px;
+	color: green;
+	z-index: 2;
+}
+.title {
+	font-size: 25px;
+	color: #fff;
+}
+.item {
+	display: flex;
+	color: #fff;
+	& span:first-child {
+		margin-right: 30px;
+		color: rgba(255, 255, 255, 0.6);
+	}
+}
+.content {
+	display: flex;
+}
+.name {
+	font-size: 22px;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin-bottom: 50px;
+}
