@@ -5,7 +5,11 @@
 	align-items: center;
 	padding: 30px;
 	border-radius: 15px;
-	background: $color-primary;
+	background: linear-gradient(
+		to bottom,
+		$color-primary,
+		darken($color-primary, 40%)
+	);
 	color: #fff;
 }
 

@@ -17,15 +17,15 @@ export const menu: IMenuItem[] = [
 		Icon: RiDashboard2Line
 	},
 	{
-		link: '/movies',
+		link: '/manage/movies',
 		Icon: RiMovie2Line
 	},
 	{
-		link: '/reviews',
+		link: '/manage/reviews',
 		Icon: RiListUnordered
 	},
 	{
-		link: '/invoices',
+		link: '/manage/invoices',
 		Icon: RiFileList3Line
 	}
 ];

@@ -1,0 +1,26 @@
+.label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.hidden {
+	position: relative;
+	overflow: hidden;
+	& input {
+		margin-left: -140px;
+		cursor: pointer;
+	}
+}
+
+.btn {
+	margin-right: 15px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	background: $color-primary;
+	color: #fff;
+}
+
+.img {
+	width: 50px;
+	margin-bottom: 30px;
+}

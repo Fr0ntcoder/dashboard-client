@@ -1,0 +1,32 @@
+.root {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.id {
+	width: 5%;
+	text-align: center;
+}
+.img {
+	width: 5%;
+}
+.name {
+	width: 75%;
+	padding: 0 30px;
+}
+.link {
+	width: 5%;
+	font-size: 25px;
+	text-align: center;
+	& a {
+		color: #fff;
+		cursor: pointer;
+	}
+	& button {
+		background: none;
+		color: $color-primary;
+		cursor: pointer;
+	}
+}
